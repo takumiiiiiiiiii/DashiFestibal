@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/x23029xx/My project (24)/Packages/manifest.json
+    m_FilePath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638871279620000000
-    m_Hash: 172339254
+      ticks: 638871295930000000
+    m_Hash: 1860493531
   m_LockFileStatus:
-    m_FilePath: /Users/x23029xx/My project (24)/Packages/packages-lock.json
+    m_FilePath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638871279620000000
-    m_Hash: 4168058625
+      ticks: 638871296260000000
+    m_Hash: 3644528335
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/x23029xx/My project (24)/Packages
+m_ProjectPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Packages
 m_EditorVersion: 6000.0.46f1 (fb93bc360d3a)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.6
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.6
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.ai.navigation@c74b2724ed42
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.ai.navigation@c74b2724ed42
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -144,12 +144,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.6
     minimumUnityVersion: 2023.2.0a18
-- packageId: com.unity.collab-proxy@2.8.2
+- packageId: com.unity.collab-proxy@2.7.1
   testable: 0
   isDirectDependency: 1
-  version: 2.8.2
+  version: 2.7.1
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.collab-proxy@50ac96531b63
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -280,13 +280,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638822079721750000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html
+  datePublishedTicks: 638751271186710000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
+    revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
     path: 
   unityLifecycle:
     version: 2.7.1
@@ -299,12 +299,34 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed false positive error showing in console if
-    creating a workspace from the Hub with a version of the Unity Editor shipping
-    with a default Version Control package older than version 2.7.1."}'
+  upmReserved: "{\"changelog\":\"### Added\\n\\n- You can now Shelve your selected
+    Pending Changes, inspect the shelves content, and apply them to your workspace.\\n-
+    You can now Shelve your Pending Changes when switching to another branch (or
+    changeset) and decide if you want to apply them automatically after the switch.\\n-
+    You can now create a code review from the list of branches (or changesets) opening
+    either the Desktop App or the Unity Cloud website.\\n\\n### Changed\\n\\n- Serialize
+    the Checkin comment and tick selection so they are kept on any domain reload
+    and play mode.\\n- Optimized incoming changes & merge to only reload the Package
+    Manager when needed.\\n- Added dedicated toolbar buttons to open the list of
+    branches and the Branch Explorer of the Desktop App.\\n- Reworded the changeset
+    context menu \\\"Undo this change\\\" to \\\"Revert this file to the previous
+    revision\\\" so it\u2019s more explicit.\\n- Moved the 'Unity Version Control'
+    menu item under 'Window'/'Version Control' submenu starting from Unity 6.1.\\n-
+    Improve the Create workspace window to suggest the matching Unity Cloud project
+    if it exists.\\n\\n### Fixed\\n\\n- Ensured ignore.conf is not being reformatted
+    when adding or removing an ignore rule, so it keeps empty lines and comments.\\n-
+    Fixed missing checked-out for renamed assets.\\n- Fixed rename asset leaves 'Added'
+    + 'Remove locally' status instead of 'Moved'.\\n- Fixed console error GUI Error:
+    Invalid GUILayout state in PlasticWindow view which is caused under some circumstances.\\n-
+    Fixed null exception on entering in Play Mode before creating the workspace.\\n-
+    Fixed lock statuses to correctly refresh in Project View and Inspector after
+    merging.\\n- Fixed a performance issue by preventing the ConfigureLogging call
+    on every domain reload when Unity Version Control is not used, reducing the load
+    time by ~200ms. .\\n- Fixed the create branch operation to work in Gluon mode
+    which uses partial workspaces.\"}"
   assetStore:
     productId: 
-  fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
+  fingerprint: 50ac96531b6358586ccfdf8cc845939bf50d9fab
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.7.1
@@ -314,7 +336,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.35
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.ide.rider@7d01a2258732
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.ide.rider@7d01a2258732
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -436,7 +458,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -542,7 +564,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -691,7 +713,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -781,7 +803,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.0.4
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.render-pipelines.universal@18be219df6cb
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.render-pipelines.universal@18be219df6cb
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -943,7 +965,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.test-framework@388540dd9ce6
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.test-framework@388540dd9ce6
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1081,7 +1103,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.timeline@c58b4ee65782
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1267,7 +1289,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.ugui@f3fac7af1578
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.ugui@f3fac7af1578
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1362,7 +1384,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.6
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.visualscripting@7dcdc439b230
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.visualscripting@7dcdc439b230
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3915,7 +3937,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.ext.nunit@031a54704bff
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3994,7 +4016,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.render-pipelines.core@54056c5186e5
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.render-pipelines.core@54056c5186e5
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4208,7 +4230,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.4
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.shadergraph@4e35da2bf8a6
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.shadergraph@4e35da2bf8a6
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4411,7 +4433,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.render-pipelines.universal-config@a14cb52003ef
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.render-pipelines.universal-config@a14cb52003ef
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal RP Config
@@ -4509,7 +4531,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.searcher@1e17ce91558d
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -4596,7 +4618,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.19
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.burst@7a907cf5a459
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.burst@7a907cf5a459
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4828,7 +4850,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.mathematics@8017b507cc74
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4917,7 +4939,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.collections@56bff8827a7e
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -5094,7 +5116,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.rendering.light-transport@307bc27a498f
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.rendering.light-transport@307bc27a498f
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -5190,7 +5212,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -5272,7 +5294,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.3
   source: 1
-  resolvedPath: /Users/x23029xx/My project (24)/Library/PackageCache/com.unity.test-framework.performance@fb0dc592af8b
+  resolvedPath: /Users/x23029xx/Documents/GitHub/DashiFestibal/DashiGame/Library/PackageCache/com.unity.test-framework.performance@fb0dc592af8b
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API
